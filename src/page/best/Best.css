@@ -1,0 +1,75 @@
+.upperCards{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2rem;
+  align-items: center;
+}
+.upperCard{
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  
+}
+.upperCard1{
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  
+}
+img{
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+  border-radius: 1rem;
+
+}
+.loweCards{
+  display: grid;
+  grid-template-columns:10% 25% 25% 25%;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.lowerCard{
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  
+}
+.startButton {
+  background-color: #FFCF59;
+  border-radius: 30px;
+}
+.startButton {
+  display: inline-block;
+  background-color: #FFCF59;
+  color: black;
+  padding: 16px 32px;
+  border-radius: 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.startButton:hover {
+  background-color: #3e47b1;
+  color:yellow;
+}
+
+@media screen and (max-width: 767px) {
+  .upperCards{
+    grid-template-columns: 100%;
+  }
+  .upperCard{
+    padding: 1rem;
+  }
+  .upperCard1{
+    padding: 1rem;
+  }
+  .loweCards{
+    grid-template-columns:100%;
+  }
+  .lowerCard{
+    padding: 1rem;
+  }
+  .startButton {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}
